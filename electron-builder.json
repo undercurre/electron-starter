@@ -1,0 +1,12 @@
+{
+  "appId": "com.example.myapp",
+  "productName": "MyApp",
+  "directories": {
+    "output": "out2install"
+  },
+  "files": ["dist/**/*", "node_modules/**/*", "src/electron/**/*"],
+  "win": {
+    "target": "nsis",
+    "icon": "./public/wiicha.ico"
+  }
+}
